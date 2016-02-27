@@ -1,22 +1,18 @@
-### Codebook - for Getting and Cleaning Data Course Project
+## Codebook - for Getting and Cleaning Data Course Project
 
-## Dataset File
+### Dataset File
 *run_analysis_tidy.csv*
 
-## Variables
+### Variables
 id
-    Unique ID number    1-180 unique identifier assignet to each row        
+Unique ID number: 1-180 unique identifier assignet to each row        
 
-subject                    
-    Subject number      1-30 unique identifier assigned to each subject
+subject
+:Subject number:  1-30 unique identifier assigned to each subject
 
-activity                   
-    Acitivity label     WALKING
-                        WALKING_UPSTAIRS
-                        WALKING_DOWNSTAIRS
-                        SITTING
-                        STANDING
-                        LAYING
+activity
+Acitivity labels: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS,
+                  SITTING, STANDING, LAYING
 
 time_body_acc_mean_x       
 time_body_acc_mean_y              
@@ -42,7 +38,7 @@ time_body_gyro_mean_z
 time_body_gyro_std_x       
 time_body_gyro_std_y       
 time_body_gyro_std_z       
-time_body_gyrojerk_mean_x 
+time_body_gyrojerk_mean_x
 time_body_gyrojerk_mean_y  
 time_body_gyrojerk_mean_z  
 time_body_gyrojerk_std_x   
@@ -85,7 +81,7 @@ freq_body_gyromag_std
 freq_body_gyrojerkmag_mean
 
 
-## Transformation
+### Transformation
 - The result dataset has 180 rows and 69 columns (including the id column).
 - All values are means, aggregated over 30 subjects and 6 activities.
 - The dataset was ordered by subject and activity. 
