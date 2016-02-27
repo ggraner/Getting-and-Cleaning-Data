@@ -89,7 +89,7 @@ run_analysis<-function() {
         
         ### SECTION 5 - WRITE TIDY DATA TO NEW FILE ###
         
-        cat("writing tidy dataset to run_analysis_tidy.csv\n")
-        write.table(data_tidy, file="run_analysis_tidy.csv", sep=",",row.names=FALSE)
+        cat("writing tidy dataset to run_analysis_tidy.txt\n")
+        write.table(data_tidy, file="run_analysis_tidy.txt", row.names=FALSE)
 
 }

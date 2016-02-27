@@ -11,7 +11,7 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 - README.md
 - CodeBook.md
 - run_analysis.R
-- run_analysis_tidy.csv
+- run_analysis_tidy.txt
 
 ### Scheme
 The R scrpit *run_analysis.R* does the following:  
@@ -23,7 +23,7 @@ The R scrpit *run_analysis.R* does the following:
 5. merges the test and the training set into one table  
 6. prepares merged data by removing duplicated column names, using descriptive activity names and appropriate labels  
 7. creates the mean of each variable for each activity and each subject  
-8. writes the tidy data set to a new file in the working directory called: *run_analysis_tidy.csv*
+8. writes the tidy data set to a new file in the working directory called: *run_analysis_tidy.txt*
 
 ### Dependencies
 - data.table library

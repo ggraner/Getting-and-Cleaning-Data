@@ -1,7 +1,7 @@
 ## Codebook - for Getting and Cleaning Data Project
 
 ### Dataset File
-*run_analysis_tidy.csv*
+*run_analysis_tidy.txt*
 
 ### Variables
 id  
