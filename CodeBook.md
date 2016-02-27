@@ -1,16 +1,16 @@
-## Codebook - for Getting and Cleaning Data Course Project
+## Codebook - for Getting and Cleaning Data Project
 
 ### Dataset File
 *run_analysis_tidy.csv*
 
 ### Variables
-id
+id  
 Unique ID number: 1-180 unique identifier assignet to each row        
 
-subject
-:Subject number:  1-30 unique identifier assigned to each subject
+subject  
+Subject number:  1-30 unique identifier assigned to each subject
 
-activity
+activity  
 Acitivity labels: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS,
                   SITTING, STANDING, LAYING
 
